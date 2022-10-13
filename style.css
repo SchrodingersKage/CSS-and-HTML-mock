@@ -1,0 +1,124 @@
+/* I promise I did do all of the exercises. I was confused on the format, so I wasn't sure if I was 
+supposed to delete them and move on, or keep them and comment. After viewing the answer I realised 
+my error. If you need me to do them again I can, just let me know. ~ Dax */
+
+/* .one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  bottom: 100%;
+
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}  */
+
+/* Mock Project BEGINS! */
+
+button {
+  background-color: #47a6ff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#0059ad;
+}
+
+.card {
+  width: 30%;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: 50px 50px 10px #000;
+}
+
+.jpg {
+  background-image: url("cat.jpg");
+  width: 100%;
+  padding-bottom: 50%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.title {
+  background-color: #aaa;
+  font-size: 4vh;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.par {
+  padding: 15px;
+  background-color: #aaa;
+  border-top: 1px solid #bbb;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: 14px;
+}
+
+
+.tiles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tile {
+  height: 30vh;
+  width: 30vh;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.caption {
+  background-color: rgb(0, 0, 0, .6);
+  color: white;
+  position: relative;
+  height: 30vh;
+  width: 30vh;
+  font-size: 3em;
+}
+
+.caption p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tile:hover .caption {
+  transform:translateY(-30vh);
+  transition: transform 1s cubic-bezier(0.37, 0, 0.63, 1);
+}
